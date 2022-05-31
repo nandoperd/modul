@@ -1,0 +1,8 @@
+.sampul {
+  width: 50 px;
+}
+
+/* arti * adalah apapun yang ada di dalam tr maka semuanya akan menjadi middle */
+.table > tbody > tr > * {
+  vertical-align: middle;
+}

@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sistem Pembelajaran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+                    <a class="nav-link" href="/pages/biodata">Biodata</a>
+                    <a class="nav-link" href="<?= base_url('/pages/kehadiran'); ?>">Kehadiran</a>
+                    <a class="nav-link" href="/pages/pengumuman">Pengumuman</a>
+                    <a class="nav-link" href="/modul">Modul</a>
+                    <a class="nav-link" href="/siswa">Siswa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
